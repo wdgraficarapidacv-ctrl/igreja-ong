@@ -37,6 +37,14 @@ export async function updateSession(request: NextRequest) {
     return NextResponse.next({ request });
   }
 
+  // Nas páginas públicas (home, /sobre, /ong, etc.) não tem nada pra proteger
+  // ou redirecionar aqui — pular a chamada ao Supabase evita um round-trip de
+  // rede desnecessário em toda navegação do site, deixando tudo mais rápido.
+  // Só /admin/* e /login realmente precisam verificar a sessão aqui.
+  if (!isAdminRoute && !isLoginRoute) {
+    return NextResponse.next({ request });
+  }
+
   let supabaseResponse = NextResponse.next({ request });
 
   const supabase = createServerClient(
