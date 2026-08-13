@@ -3,7 +3,7 @@ import Link from "next/link";
 export function OngTeaser() {
   return (
     <section className="border-b border-line px-6 py-[88px]">
-      <div className="mx-auto grid max-w-[1400px] gap-8 rounded-2xl border border-line bg-bg-raised p-8 sm:p-10 md:grid-cols-[1fr_auto] md:items-center">
+      <div className="mx-auto grid max-w-[1760px] gap-8 rounded-2xl border border-line bg-bg-raised p-8 sm:p-10 md:grid-cols-[1fr_auto] md:items-center">
         <div>
           <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Nossa ação social</p>
           <h2 className="mb-3.5 max-w-[26ch] text-balance font-serif text-[26px] font-normal tracking-tight sm:text-[32px]">

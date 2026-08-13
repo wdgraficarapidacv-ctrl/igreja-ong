@@ -166,7 +166,7 @@ export default async function OngPage() {
               "radial-gradient(ellipse 900px 500px at 15% -10%, var(--accent-soft), transparent 60%), radial-gradient(ellipse 700px 500px at 100% 0%, #101d38, transparent 55%)",
           }}
         >
-          <div className="mx-auto max-w-[1400px]">
+          <div className="mx-auto max-w-[1760px]">
             <p className="mb-[18px] flex items-center gap-2.5 text-[12.5px] font-bold uppercase tracking-[0.16em] text-accent-ink">
               <span className="inline-block h-px w-[26px] bg-accent" />
               Ação social da MARN Church
@@ -199,7 +199,7 @@ export default async function OngPage() {
 
         {/* Missão e Visão */}
         <section className="border-b border-line px-6 py-[88px]">
-          <div className="mx-auto max-w-[1400px]">
+          <div className="mx-auto max-w-[1760px]">
             <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Quem somos</p>
             <h2 className="mb-11 max-w-[26ch] text-balance font-serif text-[28px] font-normal tracking-tight sm:text-[38px]">
               Uma rede de transformação social.
@@ -219,7 +219,7 @@ export default async function OngPage() {
 
         {/* Objetivos + Público-alvo */}
         <section className="border-b border-line px-6 py-[88px]">
-          <div className="mx-auto grid max-w-[1400px] gap-14 lg:grid-cols-[1.3fr_1fr]">
+          <div className="mx-auto grid max-w-[1760px] gap-14 lg:grid-cols-[1.3fr_1fr]">
             <div>
               <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Objetivos</p>
               <h2 className="mb-6 font-serif text-[24px] font-normal tracking-tight">O que a Eu Vejo Você faz acontecer</h2>
@@ -245,7 +245,7 @@ export default async function OngPage() {
 
         {/* Áreas de atuação */}
         <section className="border-b border-line px-6 py-[88px]" id="atuacao">
-          <div className="mx-auto max-w-[1400px]">
+          <div className="mx-auto max-w-[1760px]">
             <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Áreas de atuação e serviços</p>
             <h2 className="mb-11 font-serif text-[28px] font-normal tracking-tight sm:text-[38px]">Cursos e atividades gratuitas</h2>
 
@@ -268,7 +268,7 @@ export default async function OngPage() {
 
         {/* Metodologia */}
         <section className="border-b border-line px-6 py-[88px]">
-          <div className="mx-auto max-w-[1400px]">
+          <div className="mx-auto max-w-[1760px]">
             <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Metodologia de trabalho</p>
             <div className="rounded-2xl border border-accent bg-bg-raised p-8 shadow-[0_0_0_1px_var(--accent)_inset] sm:p-10">
               <p className="max-w-[70ch] text-[16px] leading-relaxed text-ink-soft">
@@ -283,7 +283,7 @@ export default async function OngPage() {
 
         {/* Estrutura */}
         <section className="border-b border-line px-6 py-[88px]">
-          <div className="mx-auto max-w-[1400px]">
+          <div className="mx-auto max-w-[1760px]">
             <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Estrutura da ONG</p>
             <h2 className="mb-11 font-serif text-[28px] font-normal tracking-tight sm:text-[38px]">Como funciona por dentro</h2>
             <div className="grid gap-5 md:grid-cols-2">
@@ -305,7 +305,7 @@ export default async function OngPage() {
 
         {/* Parcerias e captação */}
         <section className="border-b border-line px-6 py-[88px]">
-          <div className="mx-auto max-w-[1400px]">
+          <div className="mx-auto max-w-[1760px]">
             <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Parcerias e captação de recursos</p>
             <h2 className="mb-11 font-serif text-[28px] font-normal tracking-tight sm:text-[38px]">Como a rede se sustenta</h2>
             <div className="grid gap-5 md:grid-cols-2">
@@ -327,7 +327,7 @@ export default async function OngPage() {
 
         {/* Impacto e indicadores */}
         <section className="border-b border-line px-6 py-[88px]">
-          <div className="mx-auto max-w-[1400px]">
+          <div className="mx-auto max-w-[1760px]">
             <div className="mb-11 grid gap-5 rounded-2xl border border-line bg-bg-raised p-8 sm:p-10 md:grid-cols-[auto_1fr] md:items-center">
               <p className="font-serif text-[56px] leading-none text-accent-ink">500+</p>
               <div>
@@ -387,7 +387,7 @@ export default async function OngPage() {
 function PhotoStories() {
   return (
     <section className="border-b border-line px-6 py-[88px]">
-      <div className="mx-auto flex max-w-[1400px] flex-col gap-16">
+      <div className="mx-auto flex max-w-[1760px] flex-col gap-16">
         <div>
           <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Registros</p>
           <h2 className="max-w-[26ch] text-balance font-serif text-[28px] font-normal tracking-tight sm:text-[38px]">

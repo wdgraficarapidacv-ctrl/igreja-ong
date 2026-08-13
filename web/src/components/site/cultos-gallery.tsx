@@ -17,7 +17,7 @@ const PHOTOS: CarouselPhoto[] = [
 export function CultosGallery() {
   return (
     <section className="border-b border-line px-6 py-[88px]">
-      <div className="mx-auto max-w-[1400px]">
+      <div className="mx-auto max-w-[1760px]">
         <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Registros</p>
         <h2 className="mb-2.5 font-serif text-[24px] font-normal tracking-tight">Cultos</h2>
         <p className="mb-8 max-w-[70ch] text-[15px] leading-relaxed text-ink-soft">

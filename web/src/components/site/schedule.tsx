@@ -4,7 +4,7 @@ import { weekdayLabel } from "@/lib/data/public";
 export function Schedule({ services }: { services: ServiceItem[] }) {
   return (
     <section className="border-b border-line px-6 py-[88px]" id="cultos">
-      <div className="mx-auto max-w-[1400px]">
+      <div className="mx-auto max-w-[1760px]">
         <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Agenda semanal</p>
         <h2 className="mb-3.5 font-serif text-[28px] font-normal tracking-tight sm:text-[38px]">
           Horários dos nossos cultos

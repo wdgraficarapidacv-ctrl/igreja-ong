@@ -21,7 +21,7 @@ export function SiteHeader({ whatsapp }: { whatsapp: string | null }) {
 
   return (
     <header className="sticky top-0 z-50 border-b border-line bg-bg/85 backdrop-blur-md">
-      <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-4 px-6 py-3.5">
+      <div className="mx-auto flex max-w-[1760px] items-center justify-between gap-4 px-6 py-3.5">
         <Link href="/" className="flex items-center gap-2.5 font-serif text-[19px] font-bold tracking-tight">
           <DoveMark className="h-8 w-8 shrink-0" />
           <span>
