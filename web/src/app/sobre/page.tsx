@@ -54,7 +54,7 @@ export default async function SobrePage() {
               "radial-gradient(ellipse 900px 500px at 15% -10%, var(--accent-soft), transparent 60%), radial-gradient(ellipse 700px 500px at 100% 0%, #101d38, transparent 55%)",
           }}
         >
-          <div className="mx-auto max-w-[1120px]">
+          <div className="mx-auto max-w-[1400px]">
             <p className="mb-[18px] flex items-center gap-2.5 text-[12.5px] font-bold uppercase tracking-[0.16em] text-accent-ink">
               <span className="inline-block h-px w-[26px] bg-accent" />
               Sobre nós
@@ -71,7 +71,7 @@ export default async function SobrePage() {
 
         {/* Missão / Visão / Propósito */}
         <section className="border-b border-line px-6 py-[88px]">
-          <div className="mx-auto max-w-[1120px]">
+          <div className="mx-auto max-w-[1400px]">
             <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Identidade da igreja</p>
             <h2 className="mb-11 max-w-[24ch] text-balance font-serif text-[28px] font-normal tracking-tight sm:text-[38px]">
               O que nos move todos os dias.
@@ -96,7 +96,7 @@ export default async function SobrePage() {
 
         {/* Valores */}
         <section className="border-b border-line px-6 py-[88px]">
-          <div className="mx-auto max-w-[1120px]">
+          <div className="mx-auto max-w-[1400px]">
             <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">O que sustenta a caminhada</p>
             <h2 className="mb-11 font-serif text-[28px] font-normal tracking-tight sm:text-[38px]">Nossos valores</h2>
 
@@ -113,7 +113,7 @@ export default async function SobrePage() {
 
         {/* Liderança */}
         <section className="border-b border-line px-6 py-[88px]">
-          <div className="mx-auto max-w-[1120px]">
+          <div className="mx-auto max-w-[1400px]">
             <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Nossa liderança</p>
             <h2 className="mb-11 font-serif text-[28px] font-normal tracking-tight sm:text-[38px]">Quem guia a MARN Church</h2>
 

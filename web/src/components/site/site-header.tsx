@@ -21,7 +21,7 @@ export function SiteHeader({ whatsapp }: { whatsapp: string | null }) {
 
   return (
     <header className="sticky top-0 z-50 border-b border-line bg-bg/85 backdrop-blur-md">
-      <div className="mx-auto flex max-w-[1120px] items-center justify-between gap-4 px-6 py-3.5">
+      <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-4 px-6 py-3.5">
         <Link href="/" className="flex items-center gap-2.5 font-serif text-[19px] font-bold tracking-tight">
           <DoveMark className="h-8 w-8 shrink-0" />
           <span>
@@ -32,7 +32,7 @@ export function SiteHeader({ whatsapp }: { whatsapp: string | null }) {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-7 text-[14.5px] md:flex">
+        <nav className="hidden items-center gap-6 text-[14.5px] lg:flex xl:gap-7">
           {NAV_LINKS.map((link) => (
             <a key={link.href} href={link.href} className="text-ink-soft transition-colors hover:text-ink">
               {link.label}
@@ -40,7 +40,7 @@ export function SiteHeader({ whatsapp }: { whatsapp: string | null }) {
           ))}
         </nav>
 
-        <div className="hidden items-center gap-3 md:flex">
+        <div className="hidden items-center gap-3 lg:flex">
           <Link
             href="/login"
             className="rounded-full border border-line px-4 py-2 text-[14px] font-semibold text-ink-soft transition-colors hover:border-accent hover:text-accent-ink"
@@ -62,7 +62,7 @@ export function SiteHeader({ whatsapp }: { whatsapp: string | null }) {
           aria-label="Abrir menu"
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
-          className="inline-flex items-center justify-center rounded-lg border border-line p-2 text-ink md:hidden"
+          className="inline-flex items-center justify-center rounded-lg border border-line p-2 text-ink lg:hidden"
         >
           {open ? (
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -77,7 +77,7 @@ export function SiteHeader({ whatsapp }: { whatsapp: string | null }) {
       </div>
 
       {open && (
-        <div className="border-t border-line px-6 pb-6 pt-2 md:hidden">
+        <div className="border-t border-line px-6 pb-6 pt-2 lg:hidden">
           <nav className="flex flex-col gap-1">
             {NAV_LINKS.map((link) => (
               <a

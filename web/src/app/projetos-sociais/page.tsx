@@ -62,7 +62,7 @@ export default async function ProjetosSociaisPage() {
               "radial-gradient(ellipse 900px 500px at 15% -10%, var(--accent-soft), transparent 60%), radial-gradient(ellipse 700px 500px at 100% 0%, #101d38, transparent 55%)",
           }}
         >
-          <div className="mx-auto max-w-[1120px]">
+          <div className="mx-auto max-w-[1400px]">
             <p className="mb-[18px] flex items-center gap-2.5 text-[12.5px] font-bold uppercase tracking-[0.16em] text-accent-ink">
               <span className="inline-block h-px w-[26px] bg-accent" />
               Impacto social
@@ -78,7 +78,7 @@ export default async function ProjetosSociaisPage() {
         </section>
 
         <section className="px-6 py-[88px]">
-          <div className="mx-auto max-w-[1120px]">
+          <div className="mx-auto max-w-[1400px]">
             <div className="grid gap-6 sm:grid-cols-2">
               {PROJECTS.map((project) => (
                 <Link
@@ -113,7 +113,7 @@ export default async function ProjetosSociaisPage() {
         </section>
 
         <section className="border-t border-line px-6 py-[88px]">
-          <div className="mx-auto max-w-[1120px]">
+          <div className="mx-auto max-w-[1400px]">
             <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Registros</p>
             <h2 className="mb-2.5 font-serif text-[24px] font-normal tracking-tight">Projetos Sociais</h2>
             <p className="mb-6 max-w-[70ch] text-[15px] leading-relaxed text-ink-soft">

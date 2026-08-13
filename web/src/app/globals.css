@@ -85,3 +85,32 @@ body {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
+
+/* mural de fotos "flutuante" (seção Cultos da home) — cada cartão baloiça
+   suavemente em looping infinito, com fases diferentes pra não ficar
+   sincronizado. Desativado se o usuário prefere menos movimento. */
+@keyframes photo-float-a {
+  0%, 100% { transform: translateY(0) rotate(var(--tilt, 0deg)); }
+  50% { transform: translateY(-14px) rotate(var(--tilt, 0deg)); }
+}
+@keyframes photo-float-b {
+  0%, 100% { transform: translateY(-8px) rotate(var(--tilt, 0deg)); }
+  50% { transform: translateY(6px) rotate(var(--tilt, 0deg)); }
+}
+
+.photo-float {
+  animation: photo-float-a 7s ease-in-out infinite;
+  will-change: transform;
+}
+.photo-float-alt {
+  animation: photo-float-b 8.5s ease-in-out infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .photo-float,
+  .photo-float-alt {
+    animation: none;
+    transform: rotate(var(--tilt, 0deg));
+  }
+}

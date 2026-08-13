@@ -36,7 +36,7 @@ export default async function FiliaisPage() {
               "radial-gradient(ellipse 900px 500px at 15% -10%, var(--accent-soft), transparent 60%), radial-gradient(ellipse 700px 500px at 100% 0%, #101d38, transparent 55%)",
           }}
         >
-          <div className="mx-auto max-w-[1120px]">
+          <div className="mx-auto max-w-[1400px]">
             <p className="mb-[18px] flex items-center gap-2.5 text-[12.5px] font-bold uppercase tracking-[0.16em] text-accent-ink">
               <span className="inline-block h-px w-[26px] bg-accent" />
               Nossas unidades
@@ -51,7 +51,7 @@ export default async function FiliaisPage() {
         </section>
 
         <section className="px-6 py-[88px]">
-          <div className="mx-auto max-w-[1120px]">
+          <div className="mx-auto max-w-[1400px]">
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {branches.map((b) => (
                 <div

@@ -1,7 +1,7 @@
 export function About() {
   return (
     <section className="border-b border-line px-6 py-[88px]" id="sobre">
-      <div className="mx-auto max-w-[1120px]">
+      <div className="mx-auto max-w-[1400px]">
         <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Quem somos</p>
         <h2 className="mb-3.5 max-w-[20ch] text-balance font-serif text-[28px] font-normal tracking-tight sm:text-[38px]">
           Fé vivida em comunidade, todos os dias da semana.

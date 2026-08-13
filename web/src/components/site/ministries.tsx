@@ -29,7 +29,7 @@ const ICONS: Record<number, ReactNode> = {
 export function Ministries({ ministries }: { ministries: MinistryItem[] }) {
   return (
     <section className="border-b border-line px-6 py-[88px]" id="ministerios">
-      <div className="mx-auto max-w-[1120px]">
+      <div className="mx-auto max-w-[1400px]">
         <p className="mb-2.5 text-xs font-bold uppercase tracking-[0.16em] text-accent-ink">Vida em comunidade</p>
         <h2 className="mb-3.5 font-serif text-[28px] font-normal tracking-tight sm:text-[38px]">
           Ministérios da nossa casa
